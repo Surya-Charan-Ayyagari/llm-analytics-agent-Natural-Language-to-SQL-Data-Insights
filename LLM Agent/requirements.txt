@@ -1,0 +1,17 @@
+streamlit>=1.36
+# data + db
+pandas>=2.2
+SQLAlchemy>=2.0
+psycopg[binary]>=3.1
+# charts
+matplotlib>=3.8
+# LLM backends (choose one or more)
+# OpenAI cloud (optional)
+openai>=1.40
+# Local inference via Transformers
+transformers>=4.43
+accelerate>=0.33
+torch>=2.3; platform_system!="Darwin" # install appropriate torch for your system
+# Optional: Ollama client if you prefer running via Ollama server
+ollama>=0.3
+python-dotenv>=1.0
